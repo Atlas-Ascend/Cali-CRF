@@ -1,0 +1,24 @@
+schema: ghost-atlas.hypernet.node/v1
+node_id: cali-crf
+repository: Atlas-Ascend/Cali-CRF
+organism_root: Atlas-Ascend/VISHVARUPA-Software-Hardware-Organism
+version: 0.1.0
+lifecycle: active-candidate
+plane: runtime-hardware-infra
+canonical_role: cognitive-runtime-framework-and-local-capability-bridge
+authority:
+  owns: [runtime-context-contract, model-runtime-bridge, local-capability-routing-context]
+  does_not_own: [executive-authorization, unrestricted-device-control, final-quality-verdict]
+upstream: [Atlas-Ascend/Atlas-Mind-LLM, Atlas-Ascend/Eden-2.0, Atlas-Ascend/Packet-OS]
+downstream: [Atlas-Ascend/Estate-Service-Catalog-Capability-Registry, Atlas-Ascend/Crowngrid, Atlas-Ascend/workforce-spine]
+integration:
+  executive: Atlas-Ascend/Janus-Prime
+  events: Atlas-Ascend/Ghost-Atlas-Estate-Event-Gateway
+  quality: Atlas-Ascend/SECA
+  security: Atlas-Ascend/Medusa-Sovereign-Security
+  memory: Atlas-Ascend/thoth-archive-engine
+  failure: Atlas-Ascend/PROMETHEUS-V-1.1.1
+proof:
+  runtime_state: unverified
+  physical_claims_require_live_receipts: true
+  repository_presence_is_not_runtime_proof: true
