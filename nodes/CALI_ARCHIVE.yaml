@@ -1,0 +1,14 @@
+runtime_id: CALI_ARCHIVE
+class: CALI_ARCHIVE
+health: healthy
+authority_max: archival
+locality: durable
+concurrency: 2
+packet_classes: [archive, replay]
+evidence_classes: [receipt, proof, archive]
+capabilities:
+  - archive
+  - replay
+  - receipt-normalization
+  - evidence-preservation
+failure_route: JANUS

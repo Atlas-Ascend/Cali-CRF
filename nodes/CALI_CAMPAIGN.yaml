@@ -1,0 +1,13 @@
+runtime_id: CALI_CAMPAIGN
+class: CALI_CAMPAIGN
+health: healthy
+authority_max: bounded-campaign
+locality: any
+concurrency: 8
+packet_classes: [campaign, execution]
+evidence_classes: [runtime, campaign, test]
+capabilities:
+  - packet-execution
+  - campaign
+  - sustained-work
+failure_route: CALI_AUDIT

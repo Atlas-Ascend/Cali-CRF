@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"CALI Capability","type":"object","required":["capability","provider"],"properties":{"capability":{"type":"string"},"provider":{"type":"string"},"evidence_classes":{"type":"array","items":{"type":"string"}},"constraints":{"type":"object"}},"additionalProperties":false}

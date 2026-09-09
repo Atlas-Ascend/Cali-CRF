@@ -1,0 +1,35 @@
+federation: CALI-CRF
+version: 0.1.0
+control_plane: CALI-CRF
+upstream:
+  - JANUS
+  - EDEN
+  - Packet-OS
+governance:
+  - Medusa
+downstream:
+  - Workforce-Spine
+  - MetaForge
+  - DevOS
+  - SECA
+  - Thoth
+  - ProofGrid
+  - CrownGrid
+nodes:
+  - CALI_PRIME
+  - CALI_CAMPAIGN
+  - CALI_AUDIT
+  - CALI_ARCHIVE
+closed_loop:
+  - intake
+  - preflight
+  - federation
+  - assignment
+  - execution
+  - verification
+  - repair
+  - receipt
+  - routing
+  - memory
+  - proof
+  - visibility

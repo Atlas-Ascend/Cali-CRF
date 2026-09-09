@@ -1,0 +1,13 @@
+runtime_id: CALI_PRIME
+class: CALI_PRIME
+health: healthy
+authority_max: bounded-execution
+locality: preferred-local
+concurrency: 4
+packet_classes: [execution]
+evidence_classes: [runtime, build, test]
+capabilities:
+  - packet-execution
+  - local-tools
+  - estate-routing
+failure_route: CALI_AUDIT

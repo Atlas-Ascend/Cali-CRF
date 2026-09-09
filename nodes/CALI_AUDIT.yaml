@@ -1,0 +1,14 @@
+runtime_id: CALI_AUDIT
+class: CALI_AUDIT
+health: healthy
+authority_max: audit-repair
+locality: any
+concurrency: 4
+packet_classes: [verification, inspection, repair]
+evidence_classes: [audit, test, seca]
+capabilities:
+  - verification
+  - inspection
+  - repair
+  - packet-execution
+failure_route: JANUS
